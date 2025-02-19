@@ -62,9 +62,9 @@ class BarChart {
             noStroke();
             textSize(10);
             push();
-            translate(xPos + (this.barWidth / 2), 10);
-            rotate(90);
-            text(this.data[i][this.xValue], 0, 0);
+                translate(xPos + (this.barWidth / 2), 10);
+                rotate(90);
+                text(this.data[i][this.xValue], 0, 0);
             pop();
         }
         pop();
